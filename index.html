@@ -32,7 +32,7 @@
     --r-tab:   9px;  /* nav tabs are text links, kept crisper than buttons */
 
     /* ---- Type ---- */
-    --serif: 'Playfair Display', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+    --serif: 'Athelas', 'Playfair Display', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
     --sans:  'Raleway', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
 
     /* ---- Shadow (very soft) ---- */
@@ -84,13 +84,14 @@
     color: var(--muted); text-decoration: none;
     padding: 9px 16px; border-radius: var(--r-tab);
     background: transparent; border: 0; cursor: pointer;
+    position: relative;
     transition: color .2s ease, background .2s ease;
   }
   .nav-link:hover { color: var(--ink); background: rgba(124,112,92,.10); }
   .nav-link.is-active { color: var(--ink); }
   .nav-link.is-active::after {
-    content: ""; display: block; height: 2px; margin-top: 6px; border-radius: 2px;
-    background: var(--accent);
+    content: ""; position: absolute; left: 16px; right: 16px; bottom: 3px;
+    height: 2px; border-radius: 2px; background: var(--accent);
   }
 
   /* ============ HEADER ============ */
@@ -333,6 +334,7 @@
     .brand-name { display: none; }
     .nav-links { gap: 2px; }
     .nav-link { padding: 8px 12px; font-size: 12px; letter-spacing: .04em; }
+    .nav-link.is-active::after { left: 12px; right: 12px; bottom: 2px; }
   }
 
   @media (prefers-reduced-motion: reduce) {

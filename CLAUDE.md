@@ -19,6 +19,11 @@ The **trainers overview and sorting** view. Start here.
 
 ## Brand & design system
 
+> **ALWAYS invoke the `frontend-design` skill before any design work** — new UI, layout, visual
+> direction, or reshaping existing UI. No exceptions. Run it *before* writing markup or CSS so the
+> aesthetic direction is deliberate rather than templated, and derive colors/type/layout from it
+> together with the brand docs below.
+
 Art of Breath is a sub-brand of **Daniel Alan** (the parent brand). The visual language inherits
 much of the parent's tone — warm, quiet, grounded neutrals; "let viewers feel before they think."
 
