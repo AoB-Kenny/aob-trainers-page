@@ -7,3 +7,6 @@ node_modules/
 .claude/settings.local.json
 .claude/handoffs/
 audits/
+.pdf
+content/
+.md

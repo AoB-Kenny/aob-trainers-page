@@ -55,3 +55,12 @@ much of the parent's tone — warm, quiet, grounded neutrals; "let viewers feel 
 - Serif heading over sans subheading; do not mix the two roles. Let type breathe.
 - Web: **Playfair Display** (headings) + **Raleway** (body) are the licensable substitutes for the
   proprietary Apple faces Athelas/Galvji.
+
+### Copy notes
+
+- **No em-dashes.** Never use `—` (em-dash) in copy. Use a comma, a colon, or a separate sentence
+  instead. (The parent-brand copy guide calls this "no em-dash-prosa"; it is a hard rule here.)
+- **German first**, Du-form, **no gendering** (generic masculine: "Trainer", not "Trainer:innen").
+- AoB voice is **broader and plainer** than the personal Daniel Alan brand, and speaks about Art of
+  Breath in the **third person** to a "du" reader (no "wir"/"uns" narrative voice). Daniel Alan stays a
+  background credibility anchor. See the working copy in `copy/` and `content/` for reference only.
