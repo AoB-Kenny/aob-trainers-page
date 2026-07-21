@@ -18,23 +18,27 @@
 
 ## SECTION 1 — Hero
 
-**Headline (gewählt):**
-# Menschen, die den Weg selbst gegangen sind.
+**Headline (gewählt, v4):**
+# Lerne, mit dem Atem zu arbeiten.
 
 **Subhead:**
-Art of Breath ist die Gemeinschaft der Breathwork-Trainer rund um Daniel Alan. An elf Orten in Deutschland und der Schweiz geben sie weiter, was sie selbst durchlebt haben, und begleiten dich dabei, mit deinem eigenen Atem zu arbeiten.
+Bei Art of Breath lernst du Breathwork, das du wirklich verstehst: für dich selbst, oder um andere sicher durch eine Atemreise zu begleiten. Deine Trainer und Coaches sind selbst von Daniel Alan ausgebildet und arbeiten in ganz Deutschland und der Schweiz.
 
-**Primär-CTA:** `Finde deinen Trainer` → map.html
+**Primär-CTA:** `Finde deinen Trainer` → trainers-map.html
 **Sekundär (klein, Anker):** `Was Art of Breath ist` ↓
 
 **Verworfene Alternativen (Referenz):**
+- **v3 (Lineage):** `# Menschen, die den Weg selbst gegangen sind.` verworfen: setzt zu viel voraus, dass der Besucher Daniel Alan kennt, und führt mit der Herkunft statt mit dem Angebot (Nutzer-Entscheidung 2026-07-21).
 - **B (Weitergeben):** `# Weitergegeben von denen, die ihn selbst gegangen sind.`
 - **C (Wir-Perspektive):** verworfen. Kein „wir"/„uns"-Erzählton (Nutzer-Entscheidung 2026-07-20).
+- **Nicht-Imperativ-Variante (Referenz):** `# Hier lernst du, mit dem Atem zu arbeiten.`
 
 ```
-// v3: ruhig, Lineage-/Gemeinschafts-Ton, KEIN Imperativ, KEINE Adjektiv-Trias, KEINE Gedankenstriche.
-// Kern-Satz "den Weg selbst gegangen" aus der AoB-Beschreibung (Daniel-Seite), aber von HIER formuliert.
-// Perspektive: über Art of Breath in der 3. Person, Leser mit "du" ansprechen. KEIN "wir"-Erzählton.
+// v4: Angebot zuerst ("Breathwork lernen"), Daniel als Hintergrund-Anker im dritten Satz, nicht als Einstieg.
+// Ein kalter Besucher versteht sofort, wofür die Seite da ist: lernen, mit dem Atem zu arbeiten.
+// Sanfter Imperativ ("Lerne, ...") passt zum Du und zur Lern-Ausrichtung; Nicht-Imperativ-Variante oben als Option.
+// Perspektive weiter: über Art of Breath in der 3. Person, Leser mit "du". KEIN "wir". KEINE Gedankenstriche.
+// Ortsangabe bewusst ohne harte Zahl ("in ganz Deutschland und der Schweiz"), da 11 Trainer / 9 Standorte.
 ```
 
 ---
