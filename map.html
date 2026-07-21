@@ -146,7 +146,9 @@
   }
   /* #map (not .map-card) clips the tiles to rounded corners, so the trainer card
      can be centered on the map and overflow the frame without being clipped. */
-  #map { position: absolute; inset: 0; border-radius: var(--r-card); overflow: hidden; }
+  #map { position: absolute; inset: 0; border-radius: var(--r-card); overflow: hidden;
+         opacity: 0; transition: opacity .8s ease; }
+  #map.is-ready { opacity: 1; }
   .map-cap {
     margin: 16px 2px 0; font-size: 13px; letter-spacing: .02em; color: var(--faint);
     display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center;
@@ -470,6 +472,8 @@
   map.dragRotate.disable();
   map.touchZoomRotate.disableRotation();
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+  // reveal the map only after the brand recolor has painted, so the default style never flashes
+  setTimeout(() => document.getElementById('map').classList.add('is-ready'), 2500); // safety fallback
 
   map.on('load', () => {
     // Recolor the base map to the brand palette
@@ -498,6 +502,7 @@
       } catch (e) {}
     }
     addPins();
+    map.once('idle', () => document.getElementById('map').classList.add('is-ready'));
   });
 
   /* ---- Pins ---- */
